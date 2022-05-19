@@ -1,0 +1,123 @@
+/* User define the root variables */
+:root {
+  --falcon-duration: 1s;
+  --falcon-fill-mode: both;
+}
+/* Copyrights FalconCSS - 2022 */
+
+.falcon--animated {
+  animation-duration: 1s;
+  -webkit-animation-duration: var(--falcon-duration);
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: var(--falcon-fill-mode);
+}
+
+.falcon--animated.falcon--infinite {
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.falcon--animated.falcon--fast {
+  -webkit-animation-duration: calc(var(--falcon-duration) * 0.8);
+  animation-duration: calc(var(--falcon-duration) * 0.8);
+}
+
+/* Animations of Fade */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.falcon--fadeIn {
+  animation-name: fadeIn;
+}
+
+.falcon--fadeOut {
+  animation-name: fadeOut;
+}
+
+/* Animations Scale */
+
+.falcon--scale-10 {
+  transition: 200ms ease-in;
+}
+.falcon--scale-10:hover {
+  transform: scale(1.01);
+}
+
+.falcon--scale-20 {
+  transition: 200ms ease-in;
+}
+.falcon--scale-20:hover {
+  transform: scale(1.02);
+}
+
+.falcon--scale-30 {
+  transition: 200ms ease-in;
+}
+.falcon--scale-30:hover {
+  transform: scale(1.03);
+}
+
+.falcon--scale-40 {
+  transition: 200ms ease-in;
+}
+.falcon--scale-40:hover {
+  transform: scale(1.04);
+}
+
+.falcon--scale-50 {
+  transition: 200ms ease-in;
+}
+.falcon--scale-50:hover {
+  transform: scale(1.05);
+}
+
+.falcon--scale-60 {
+  transition: 200ms ease-in;
+}
+.falcon--scale-60:hover {
+  transform: scale(1.06);
+}
+
+.falcon--scale-70 {
+  transition: 200ms ease-in;
+}
+.falcon--scale-70:hover {
+  transform: scale(1.07);
+}
+
+.falcon--scale-80 {
+  transition: 200ms ease-in;
+}
+.falcon--scale-80:hover {
+  transform: scale(1.08);
+}
+
+.falcon--scale-90 {
+  transition: 200ms ease-in;
+}
+.falcon--scale-90:hover {
+  transform: scale(1.09);
+}
+
+.falcon--scale-10 {
+  transition: 200ms ease-in;
+}
+.falcon--scale-100:hover {
+  transform: scale(1.1);
+}
