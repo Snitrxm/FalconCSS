@@ -54,12 +54,14 @@
 
 .falcon--scale-10 {
   transition: 200ms ease-in;
+  transition-duration: 200ms;
 }
 .falcon--scale-10:hover {
   transform: scale(1.01);
 }
 
 .falcon--scale-20 {
+  transition-duration: 200ms;
   transition: 200ms ease-in;
 }
 .falcon--scale-20:hover {
@@ -67,6 +69,7 @@
 }
 
 .falcon--scale-30 {
+  transition-duration: 200ms;
   transition: 200ms ease-in;
 }
 .falcon--scale-30:hover {
@@ -74,6 +77,7 @@
 }
 
 .falcon--scale-40 {
+  transition-duration: 200ms;
   transition: 200ms ease-in;
 }
 .falcon--scale-40:hover {
@@ -81,6 +85,7 @@
 }
 
 .falcon--scale-50 {
+  transition-duration: 200ms;
   transition: 200ms ease-in;
 }
 .falcon--scale-50:hover {
@@ -88,6 +93,7 @@
 }
 
 .falcon--scale-60 {
+  transition-duration: 200ms;
   transition: 200ms ease-in;
 }
 .falcon--scale-60:hover {
@@ -95,6 +101,7 @@
 }
 
 .falcon--scale-70 {
+  transition-duration: 200ms;
   transition: 200ms ease-in;
 }
 .falcon--scale-70:hover {
@@ -102,6 +109,7 @@
 }
 
 .falcon--scale-80 {
+  transition-duration: 200ms;
   transition: 200ms ease-in;
 }
 .falcon--scale-80:hover {
@@ -109,13 +117,15 @@
 }
 
 .falcon--scale-90 {
+  transition-duration: 200ms;
   transition: 200ms ease-in;
 }
 .falcon--scale-90:hover {
   transform: scale(1.09);
 }
 
-.falcon--scale-10 {
+.falcon--scale-100 {
+  transition-duration: 200ms;
   transition: 200ms ease-in;
 }
 .falcon--scale-100:hover {
