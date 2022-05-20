@@ -13,9 +13,6 @@ body{
   align-items: center;
 }
 
-.pai{
-  border: 5px solid pink;
-}
 
 .test{
   width: 500px;
@@ -291,6 +288,47 @@ body{
   width: 50px;
   height: 50px;
   animation: isLoading 2s linear infinite;
+}
+
+/* Animation Bounce */
+
+@keyframes bounce{
+  20%, 50%, 80%, to{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(-30px);
+  }
+  70%{
+    transform: translateY(-15px);
+  }
+  90%{
+    transform: translateY(-4px);
+  }
+
+}
+
+.falcon--bounce:hover{
+  animation: bounce 1s linear;
+}
+
+
+/* Animations Flash */
+
+/* Missing Smoothness */
+
+
+@keyframes flash{
+  0%, 50%, 100% {
+    opacity: 1;
+ }
+ 25%, 75% {
+    opacity: 0;
+ }
+}
+
+.falcon--flash:hover {
+  animation: flash 1.2s step-start infinite;
 }
 
 
