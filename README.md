@@ -1,24 +1,9 @@
 # FalconCSS
 
 ```
-npm install library
+npm install falcon
 
-yarn add library
-```
-
-```js
-import 'falconcss/index.css'
-import 'falconcss/index.js'
-
-const MyApp = () => {
-  return(
-    <div className='falconcss--animated falconcss--bounce'>
-
-    </div>
-  )
-
-}
-
+yarn add falcon
 ```
 
 
